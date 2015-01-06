@@ -33,12 +33,20 @@ npm install
 sudo apt-get install python-setuptools
 sudo easy_install pip
 sudo pip install -r ~/bin/git_code_sniffer_hooks/requirements.txt
+
+mac系统中：
+curl https://bootstrap.pypa.io/ez_setup.py -o - | python
+unzip setuptools-11.3.zip
+sudo setuptools-11.3/python setup.py install --prefix=/opt/setuptools
+sudo easy_install pip
+sudo pip install -r ~/bin/git_code_sniffer_hooks/requirements.txt
 ```
 
 #### 其它：
 
 ```shell
 sudo apt-get install cowsay
+sudo gem install cowsay(mac系统)
 ```
 
 ## 配置：
